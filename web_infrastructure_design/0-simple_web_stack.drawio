@@ -16,7 +16,7 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--7" value="No IP cached" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--3" target="K1ztfGsYkskTR4_yVOU--5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--13" value="IP cached&lt;br&gt;-&lt;br&gt;browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--3" target="K1ztfGsYkskTR4_yVOU--12">
+        <mxCell id="K1ztfGsYkskTR4_yVOU--13" value="IP cached&lt;br&gt;-&lt;br&gt;browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--3" target="K1ztfGsYkskTR4_yVOU--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--3" value="Cache check for corresponding IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,19 +31,57 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Queries for IP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--12">
-          <mxGeometry x="-0.6721" relative="1" as="geometry">
+        <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--20">
+          <mxGeometry x="-0.8154" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--10" value="IP address is sent back to the browser and cached" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--12" value="server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="K1ztfGsYkskTR4_yVOU--15" value="DNS root servers&lt;br&gt;TLD servers&lt;div&gt;Authoritative servers&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="630" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--20" target="K1ztfGsYkskTR4_yVOU--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--20" value="Nginx (software)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="45" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--26" value="Loads and runs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--22" target="K1ztfGsYkskTR4_yVOU--24">
+          <mxGeometry x="-0.2121" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--22" target="K1ztfGsYkskTR4_yVOU--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--22" value="Application server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="45" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--25" value="Server&#39;s OS file system" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="290" y="80" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--25">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="Database files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--25">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--29" value="queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--21" target="K1ztfGsYkskTR4_yVOU--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="45" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
