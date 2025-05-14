@@ -67,20 +67,17 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--22" value="Application server" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
           <mxGeometry x="45" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--25" value="Server&#39;s OS file system" style="swimlane;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="290" y="80" width="200" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--25" vertex="1">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="Database files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--25" vertex="1">
-          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--29" value="queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--21" target="K1ztfGsYkskTR4_yVOU--28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
           <mxGeometry x="45" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="Database files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any (device, router, company network...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="160" width="320" height="20" as="geometry" />
