@@ -31,7 +31,7 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Recursively checks for&amp;nbsp; IP matching domain&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--15" edge="1">
+        <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Recursively checks for&amp;nbsp; IP matching domain&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="n4Y1SSVw6h_WjynO-tZ9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -44,9 +44,6 @@
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--10" value="IP address is sent back to the browser and cached" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--15" value="DNS root servers&lt;br&gt;TLD servers&lt;div&gt;Authoritative servers&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="590" width="630" height="410" as="geometry" />
@@ -83,14 +80,32 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
           <mxGeometry x="45" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="160" width="130" height="20" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any (device, router, company network...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-2" value="Provider&#39;s DNS resolver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="180" width="130" height="20" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-2" value="Internet Service Provider&#39;s DNS resolver (default)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="180" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-3" value="Public DNS services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="200" width="130" height="20" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-3" value="Public DNS services (Google 8.8.8.8, cloudflare 1.1.1.1...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="160" width="250" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--15" value="DNS root servers &lt;br&gt;( .com )" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-4" vertex="1">
+          <mxGeometry x="65" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="n4Y1SSVw6h_WjynO-tZ9-5" target="n4Y1SSVw6h_WjynO-tZ9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-5" value="Top-Level Domain servers (.fr, .uk ...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+          <mxGeometry x="65" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-6" value="&lt;div&gt;Authoritative servers&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+          <mxGeometry x="65" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
