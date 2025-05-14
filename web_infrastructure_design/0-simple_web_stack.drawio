@@ -1,37 +1,37 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.4">
   <diagram name="Page-1" id="AMXWV3zxx2AqXyukk0Ai">
-    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3545" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K1ztfGsYkskTR4_yVOU--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--1" target="n4Y1SSVw6h_WjynO-tZ9-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="160" as="targetPoint" />
+            <mxPoint x="235" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--1" value="www.foobar.com" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="175" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--2" value="User on web browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="270" y="55" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="55" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--7" value="No IP cached" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-29" target="K1ztfGsYkskTR4_yVOU--5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="485" y="190" as="sourcePoint" />
+            <mxPoint x="295" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--13" value="IP cached&lt;br&gt;-&lt;br&gt;browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-29" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="220" as="sourcePoint" />
+            <mxPoint x="235" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--5" target="n4Y1SSVw6h_WjynO-tZ9-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="690" y="300" as="targetPoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--5" value="IP Resolvers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="686" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Recursively checks for&amp;nbsp; IP matching domain&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="n4Y1SSVw6h_WjynO-tZ9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="876" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="686" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry x="-0.8154" relative="1" as="geometry">
@@ -48,10 +48,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--10" value="IP address is sent back to the browser and cached" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="686" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="815" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine) : &quot;all-in-one&quot;, monolithic architecture" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="970" width="520" height="385" as="geometry" />
+          <mxGeometry x="40" y="970" width="520" height="385" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--20" target="K1ztfGsYkskTR4_yVOU--22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,16 +92,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any (device, router, company network...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="816" y="370" width="320" height="20" as="geometry" />
+          <mxGeometry x="626" y="370" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-2" value="Internet Service Provider&#39;s DNS resolver (default)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="816" y="390" width="320" height="20" as="geometry" />
+          <mxGeometry x="626" y="390" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-3" value="Public DNS services (Google 8.8.8.8, cloudflare 1.1.1.1...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="816" y="410" width="320" height="20" as="geometry" />
+          <mxGeometry x="626" y="410" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1249" y="370" width="250" height="500" as="geometry" />
+          <mxGeometry x="1059" y="370" width="250" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-10" value="DNS optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1509" y="370" width="200" height="500" as="geometry" />
+          <mxGeometry x="1319" y="370" width="200" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-11" target="n4Y1SSVw6h_WjynO-tZ9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -146,7 +146,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-23" value="&amp;nbsp; &amp;nbsp; Resolving process optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="646" y="480" width="200" height="290" as="geometry" />
+          <mxGeometry x="456" y="480" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-21" value="Full Answer Caching (A/AAAA records)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A stands for IPv4&lt;/div&gt;&lt;div&gt;AAAA stands for IPv6&lt;br&gt;&lt;br&gt;90% timesaving&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-23">
           <mxGeometry x="40" y="65" width="120" height="150" as="geometry" />
@@ -158,7 +158,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-29" value="Cache check for IP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="160" width="250" height="480" as="geometry" />
+          <mxGeometry x="110" y="160" width="250" height="480" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-30" target="n4Y1SSVw6h_WjynO-tZ9-31">
           <mxGeometry relative="1" as="geometry" />
