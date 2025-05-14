@@ -183,9 +183,6 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-35" value="TCP Connection - 3-way handshake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-36" value="HTTP Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-38" value="HTTP&lt;div&gt;Response(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--20" target="n4Y1SSVw6h_WjynO-tZ9-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
