@@ -47,17 +47,17 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--10" value="IP address is sent back to the browser and cached" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="605" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="775" width="630" height="410" as="geometry" />
+        <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine) : &quot;all-in-one&quot;, monolithic architecture" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="775" width="520" height="385" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--20" target="K1ztfGsYkskTR4_yVOU--22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--20" value="Nginx (software)" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="45" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="135" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--26" value="Loads and runs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--22" target="K1ztfGsYkskTR4_yVOU--24" edge="1">
-          <mxGeometry x="-0.2121" relative="1" as="geometry">
+          <mxGeometry x="-0.037" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -65,19 +65,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--22" value="Application server" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="45" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="135" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--29" value="queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--21" target="K1ztfGsYkskTR4_yVOU--28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="45" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="135" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="Database files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
-          <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-28" value="The stack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="30" y="175" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any (device, router, company network...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="160" width="320" height="20" as="geometry" />
@@ -144,6 +147,12 @@
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-25" value="No match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-21" target="K1ztfGsYkskTR4_yVOU--8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="330" y="1080" as="sourcePoint" />
+            <mxPoint x="330" y="840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
