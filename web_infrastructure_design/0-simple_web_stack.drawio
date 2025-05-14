@@ -22,20 +22,22 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--3" value="Cache check for corresponding IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--5" target="K1ztfGsYkskTR4_yVOU--8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K1ztfGsYkskTR4_yVOU--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--5" target="n4Y1SSVw6h_WjynO-tZ9-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--5" value="IP Resolvers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Recursively checks for&amp;nbsp; IP matching domain&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="n4Y1SSVw6h_WjynO-tZ9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-26" value="When resolved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry x="-0.8154" relative="1" as="geometry">
@@ -90,7 +92,7 @@
           <mxGeometry x="760" y="200" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="160" width="250" height="500" as="geometry" />
+          <mxGeometry x="1218" y="160" width="250" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
           <mxGeometry relative="1" as="geometry" />
@@ -102,13 +104,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-5" value="country code Top-Level Domain servers (ccTLDs : .fr, .uk ...)&lt;br&gt;&lt;br&gt;ccTLD authority is delegated by ICANN (Internet Corporation for Assigned Names and Numbers), under local authority supervision and approval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
-          <mxGeometry x="65" y="161.25" width="120" height="177.5" as="geometry" />
+          <mxGeometry x="65" y="151.25" width="120" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-6" value="&lt;div&gt;Authoritative servers&lt;br&gt;(Registered ownership)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
           <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-10" value="DNS optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="160" width="200" height="500" as="geometry" />
+          <mxGeometry x="1478" y="160" width="200" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-11" target="n4Y1SSVw6h_WjynO-tZ9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -119,11 +121,11 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-12" target="n4Y1SSVw6h_WjynO-tZ9-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-12" value="ccTLD server caching allows skipping the root level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
-          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-12" value="ccTLD server caching&amp;nbsp; at resolver level allows skipping the root level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
+          <mxGeometry x="40" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-14" value="NSSET caching = NS caching (Name Server) = Name Server Delegation Caching&lt;br&gt;&lt;br&gt;Caches authoritative server at Resolver level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
-          <mxGeometry x="40" y="337.5" width="120" height="145" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-14" value="NSSET caching = NS caching (Name Server) = Name Server Delegation Caching&lt;br&gt;&lt;br&gt;Caches authoritative server at resolver level&lt;br&gt;&lt;br&gt;50% timesaving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
+          <mxGeometry x="40" y="328.75" width="120" height="162.5" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-5" target="n4Y1SSVw6h_WjynO-tZ9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -132,6 +134,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-6" target="n4Y1SSVw6h_WjynO-tZ9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-23" value="Resolving process optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-21" value="Full Answer Caching (A/AAAA records)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A stands for IPv4&lt;/div&gt;&lt;div&gt;AAAA stands for IPv6&lt;br&gt;&lt;br&gt;90% timesaving&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-23">
+          <mxGeometry x="40" y="65" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-24" value="Match found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-21" target="K1ztfGsYkskTR4_yVOU--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-25" value="No match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-21" target="K1ztfGsYkskTR4_yVOU--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
