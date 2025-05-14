@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.4">
   <diagram name="Page-1" id="AMXWV3zxx2AqXyukk0Ai">
-    <mxGraphModel dx="3545" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="686" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry x="-0.8154" relative="1" as="geometry">
@@ -101,7 +101,7 @@
           <mxGeometry x="626" y="410" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1059" y="370" width="250" height="500" as="geometry" />
+          <mxGeometry x="1099" y="370" width="250" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-10" value="DNS optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1319" y="370" width="200" height="500" as="geometry" />
+          <mxGeometry x="1359" y="370" width="200" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-11" target="n4Y1SSVw6h_WjynO-tZ9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -169,7 +169,7 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-31" target="n4Y1SSVw6h_WjynO-tZ9-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-31" value="&lt;font face=&quot;Helvetica&quot;&gt;OS DNS cache&lt;br&gt;&lt;br&gt;PoSh : ipconfig/dnscache&lt;br&gt;&lt;br&gt;Bash :&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;systemd-resolve --statistics&lt;/font&gt;&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for systemd-based systems)&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;br&gt;sudo rndc dumpdb -cache&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for BIND)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Looking at &lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;/var/run/systemd/resolve/cache&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-31" value="&lt;font face=&quot;Helvetica&quot;&gt;OS DNS cache&lt;br&gt;&lt;br&gt;PoSh : ipconfig /dnscache&lt;br&gt;&lt;br&gt;Bash :&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;systemd-resolve --statistics&lt;/font&gt;&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for systemd-based systems)&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;br&gt;sudo rndc dumpdb -cache&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for BIND)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Looking at &lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;/var/run/systemd/resolve/cache&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
           <mxGeometry x="20" y="140" width="210" height="220" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-33" value="Router / Gateway / ISP&#39;s equipment DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
