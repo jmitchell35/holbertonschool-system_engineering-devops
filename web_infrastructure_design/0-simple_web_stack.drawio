@@ -136,7 +136,7 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-6" target="n4Y1SSVw6h_WjynO-tZ9-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-23" value="Resolving process optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-23" value="&amp;nbsp; &amp;nbsp; Resolving process optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="270" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-21" value="Full Answer Caching (A/AAAA records)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A stands for IPv4&lt;/div&gt;&lt;div&gt;AAAA stands for IPv6&lt;br&gt;&lt;br&gt;90% timesaving&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-23">
