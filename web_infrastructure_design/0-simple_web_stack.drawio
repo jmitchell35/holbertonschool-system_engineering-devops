@@ -189,6 +189,9 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-41" value="User browsing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="1010" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-42" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issues of such monolithic architecture&lt;/h1&gt;&lt;p&gt;A SPOF : the server is actually a Single Point of Failure. The system is non-redundant because it is not replicated onto another server which could be able to take over in case of maintenance that would require the server to be offline for some time (downtime).&lt;/p&gt;&lt;p&gt;Also, in case of an unexpected peak of requests to the server, either legitimate in normal use, or malicious in the case of a DDoS attack for example, the server could be flooded with inbound requests. This infrastructure would need horizontal scaling and load balancing to deal with the traffic.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1080" width="530" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
