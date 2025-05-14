@@ -101,10 +101,10 @@
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="n4Y1SSVw6h_WjynO-tZ9-5" target="n4Y1SSVw6h_WjynO-tZ9-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-5" value="Top-Level Domain servers (.fr, .uk ...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
-          <mxGeometry x="65" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-5" value="country code Top-Level Domain servers (ccTLDs : .fr, .uk ...)&lt;br&gt;(Delegated authority by ICANN)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+          <mxGeometry x="65" y="130" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-6" value="&lt;div&gt;Authoritative servers&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-6" value="&lt;div&gt;Authoritative servers&lt;br&gt;(Registered ownership)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
           <mxGeometry x="65" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
