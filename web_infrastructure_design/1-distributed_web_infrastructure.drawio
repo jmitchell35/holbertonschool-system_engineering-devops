@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.4">
+  <diagram name="Page-1" id="AMXWV3zxx2AqXyukk0Ai">
+    <mxGraphModel dx="1668" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K1ztfGsYkskTR4_yVOU--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--1" target="n4Y1SSVw6h_WjynO-tZ9-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--1" value="www.foobar.com" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--2" value="User on web browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--7" value="No IP cached" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-29" target="K1ztfGsYkskTR4_yVOU--5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--13" value="IP cached&lt;br&gt;-&lt;br&gt;browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-29" target="n4Y1SSVw6h_WjynO-tZ9-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--5" target="n4Y1SSVw6h_WjynO-tZ9-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--5" value="IP Resolvers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="496" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--16" value="Recursively checks for&amp;nbsp; IP matching domain&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="n4Y1SSVw6h_WjynO-tZ9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-26" value="When resolved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--8" target="K1ztfGsYkskTR4_yVOU--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="n4Y1SSVw6h_WjynO-tZ9-35" edge="1">
+          <mxGeometry x="-0.8154" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--10" value="IP address is sent back to the browser and cached" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="496" y="815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--19" value="Server (machine) : &quot;all-in-one&quot;, monolithic architecture" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1080" width="520" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--20" target="K1ztfGsYkskTR4_yVOU--22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--20" value="Nginx webserver (software)" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="135" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--26" value="Loads and runs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--22" target="K1ztfGsYkskTR4_yVOU--24" edge="1">
+          <mxGeometry x="-0.037" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--22" target="K1ztfGsYkskTR4_yVOU--21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--22" value="Application server" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="135" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--29" value="Queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="K1ztfGsYkskTR4_yVOU--19" source="K1ztfGsYkskTR4_yVOU--21" target="K1ztfGsYkskTR4_yVOU--28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="MySQL (DBMS software)" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="135" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="Database files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+          <mxGeometry x="390" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-28" value="The stack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry x="30" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="K1ztfGsYkskTR4_yVOU--19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="104" y="300" as="sourcePoint" />
+            <mxPoint x="104" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-1" value="Local resolvers if any (device, router, company network...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="370" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-2" value="Internet Service Provider&#39;s DNS resolver (default)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="390" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-3" value="Public DNS services (Google 8.8.8.8, cloudflare 1.1.1.1...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="410" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="370" width="250" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1ztfGsYkskTR4_yVOU--15" value="DNS root servers &lt;br&gt;( .com )" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-4" vertex="1">
+          <mxGeometry x="65" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="n4Y1SSVw6h_WjynO-tZ9-5" target="n4Y1SSVw6h_WjynO-tZ9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-5" value="country code Top-Level Domain servers (ccTLDs : .fr, .uk ...)&lt;br&gt;&lt;br&gt;ccTLD authority is delegated by ICANN (Internet Corporation for Assigned Names and Numbers), under local authority supervision and approval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+          <mxGeometry x="65" y="151.25" width="120" height="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-6" value="&lt;div&gt;Authoritative servers&lt;br&gt;(Registered ownership)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-4">
+          <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-10" value="DNS optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="370" width="200" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-11" target="n4Y1SSVw6h_WjynO-tZ9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-11" value="Root Hints file avoid Resolvers having to discover the root server for each request&lt;br&gt;&lt;br&gt;Root Hints files are static configuration files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
+          <mxGeometry x="40" y="30" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-12" target="n4Y1SSVw6h_WjynO-tZ9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-12" value="ccTLD server caching&amp;nbsp; at resolver level allows skipping the root level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
+          <mxGeometry x="40" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-14" value="NSSET caching = NS caching (Name Server) = Name Server Delegation Caching&lt;br&gt;&lt;br&gt;Caches authoritative server at resolver level&lt;br&gt;&lt;br&gt;50% timesaving" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-10">
+          <mxGeometry x="40" y="328.75" width="120" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-5" target="n4Y1SSVw6h_WjynO-tZ9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-6" target="n4Y1SSVw6h_WjynO-tZ9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-23" value="&amp;nbsp; &amp;nbsp; Resolving process optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="456" y="480" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-21" value="Full Answer Caching (A/AAAA records)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A stands for IPv4&lt;/div&gt;&lt;div&gt;AAAA stands for IPv6&lt;br&gt;&lt;br&gt;90% timesaving&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-23">
+          <mxGeometry x="40" y="65" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-24" value="Match found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-21" target="K1ztfGsYkskTR4_yVOU--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-25" value="No match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-21" target="K1ztfGsYkskTR4_yVOU--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-29" value="Cache check for IP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="250" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-30" target="n4Y1SSVw6h_WjynO-tZ9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-30" value="Browser DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
+          <mxGeometry x="65" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-31" target="n4Y1SSVw6h_WjynO-tZ9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-31" value="&lt;font face=&quot;Helvetica&quot;&gt;OS DNS cache&lt;br&gt;&lt;br&gt;PoSh : ipconfig /dnscache&lt;br&gt;&lt;br&gt;Bash :&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;systemd-resolve --statistics&lt;/font&gt;&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for systemd-based systems)&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;br&gt;sudo rndc dumpdb -cache&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for BIND)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Looking at &lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;/var/run/systemd/resolve/cache&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
+          <mxGeometry x="20" y="140" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-33" value="Router / Gateway / ISP&#39;s equipment DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n4Y1SSVw6h_WjynO-tZ9-29">
+          <mxGeometry x="65" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-37" value="HTTP&lt;div&gt;Request(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-35" target="K1ztfGsYkskTR4_yVOU--20">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-35" value="TCP Connection - 3-way handshake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-38" value="HTTP&lt;div&gt;Response(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1ztfGsYkskTR4_yVOU--20" target="n4Y1SSVw6h_WjynO-tZ9-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-41" value="User browsing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-42" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issues of such monolithic architecture&lt;/h1&gt;&lt;p&gt;This server is actually a Single Point of Failure (SPOF). The system is non-redundant because it is not replicated onto another server which could be able to take over in case of maintenance that would require the server to be offline for some time (downtime).&lt;br&gt;&lt;/p&gt;&lt;p&gt;Also, in case of an unexpected peak of requests to the server, either legitimate in normal use, or malicious in the case of a DDoS attack for example, the server could be flooded with inbound requests. This infrastructure would need horizontal scaling and load balancing to deal with the traffic, and filtering out malicious IPs&#39; requests.&lt;/p&gt;&lt;p&gt;The Separation of Concerns principle (SoC) actually extends from code to server architecture. Containerization of applications would allow to enforce redundancy, having multiple containers able to serve the same purpose, enable load balancing between these containers, and ensuring smooth maintenance with a zero-downtime focus. These are also part of Continuous Integration and Continuous Deployment concerns, containerization being a strong foothold.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1080" width="530" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
