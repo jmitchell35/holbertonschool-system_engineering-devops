@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--8" value="Resolver finds the appropriate IP address(es)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--14" value="Browser connects" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1ztfGsYkskTR4_yVOU--10" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry x="-0.8154" relative="1" as="geometry">
@@ -92,7 +92,7 @@
           <mxGeometry x="760" y="200" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-4" value="DNS servers (distributed worldwide)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1218" y="160" width="250" height="500" as="geometry" />
+          <mxGeometry x="1193" y="160" width="250" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-4" source="K1ztfGsYkskTR4_yVOU--15" target="n4Y1SSVw6h_WjynO-tZ9-5">
           <mxGeometry relative="1" as="geometry" />
@@ -110,7 +110,7 @@
           <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-10" value="DNS optimization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1478" y="160" width="200" height="500" as="geometry" />
+          <mxGeometry x="1453" y="160" width="200" height="500" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-11" target="n4Y1SSVw6h_WjynO-tZ9-12">
           <mxGeometry relative="1" as="geometry" />
