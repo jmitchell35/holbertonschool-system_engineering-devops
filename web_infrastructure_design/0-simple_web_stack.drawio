@@ -30,7 +30,7 @@
         <mxCell id="K1ztfGsYkskTR4_yVOU--21" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;(DBMS software manages DB operations)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
           <mxGeometry x="135" y="260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="&lt;div&gt;Database files&lt;/div&gt;&lt;div&gt;(store the actual data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
+        <mxCell id="K1ztfGsYkskTR4_yVOU--28" value="&lt;div&gt;Database files&lt;/div&gt;&lt;div&gt;(stores the actual data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
           <mxGeometry x="390" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1ztfGsYkskTR4_yVOU--24" value="Application files (code base)" style="rounded=0;whiteSpace=wrap;html=1;" parent="K1ztfGsYkskTR4_yVOU--19" vertex="1">
