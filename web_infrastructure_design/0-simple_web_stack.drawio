@@ -144,7 +144,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-11" value="Root Hints file avoid Resolvers having to discover the root server for each request&lt;br&gt;&lt;br&gt;Root Hints files are static configuration files" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-10" vertex="1">
-          <mxGeometry x="40" y="30" width="120" height="130" as="geometry" />
+          <mxGeometry x="40" y="25" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="n4Y1SSVw6h_WjynO-tZ9-10" source="n4Y1SSVw6h_WjynO-tZ9-12" target="n4Y1SSVw6h_WjynO-tZ9-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
