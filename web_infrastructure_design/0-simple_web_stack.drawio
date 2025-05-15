@@ -72,23 +72,23 @@
             <mxPoint x="104" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-29" value="Local cache check for IP (99% timesaving of match found)" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="90" y="160" width="290" height="480" as="geometry" />
+        <mxCell id="n4Y1SSVw6h_WjynO-tZ9-29" value="Local cache check for IP (99% timesaving of match found)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="50" y="160" width="370" height="480" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-30" target="n4Y1SSVw6h_WjynO-tZ9-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-30" value="Browser DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-29" vertex="1">
-          <mxGeometry x="85" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="n4Y1SSVw6h_WjynO-tZ9-29" source="n4Y1SSVw6h_WjynO-tZ9-31" target="n4Y1SSVw6h_WjynO-tZ9-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-31" value="&lt;font face=&quot;Helvetica&quot;&gt;OS DNS cache&lt;br&gt;&lt;br&gt;PoSh : ipconfig /dnscache&lt;br&gt;&lt;br&gt;Bash :&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;systemd-resolve --statistics&lt;/font&gt;&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for systemd-based systems)&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;&lt;br&gt;sudo rndc dumpdb -cache&lt;/code&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (for BIND)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Looking at &lt;/span&gt;&lt;code style=&quot;font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;/var/run/systemd/resolve/cache&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-29" vertex="1">
-          <mxGeometry x="40" y="150" width="210" height="220" as="geometry" />
+          <mxGeometry x="80" y="150" width="210" height="220" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-33" value="Router / Gateway / ISP&#39;s equipment DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="n4Y1SSVw6h_WjynO-tZ9-29" vertex="1">
-          <mxGeometry x="85" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n4Y1SSVw6h_WjynO-tZ9-37" value="HTTP&lt;div&gt;Request(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n4Y1SSVw6h_WjynO-tZ9-35" target="K1ztfGsYkskTR4_yVOU--20" edge="1">
           <mxGeometry x="-0.4286" relative="1" as="geometry">
