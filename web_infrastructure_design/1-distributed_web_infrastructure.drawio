@@ -177,7 +177,7 @@
           <mxGeometry x="367.5" y="515" width="322.5" height="225" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-64" value="Server 1 (machine or VM) - PRIMARY - ACTIVE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="2390" width="520" height="385" as="geometry" />
+          <mxGeometry x="-330" y="2390" width="520" height="450" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3lxz-mAFnrLCGns9ZIO8-64" source="3lxz-mAFnrLCGns9ZIO8-66" target="3lxz-mAFnrLCGns9ZIO8-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -199,6 +199,9 @@
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-70" value="Queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="3lxz-mAFnrLCGns9ZIO8-64" source="3lxz-mAFnrLCGns9ZIO8-71" target="3lxz-mAFnrLCGns9ZIO8-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UJrqt5LRB9dSP3hVQqYO-4" value="Logging" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3lxz-mAFnrLCGns9ZIO8-64" source="3lxz-mAFnrLCGns9ZIO8-71" target="UJrqt5LRB9dSP3hVQqYO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-71" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;(DBMS software manages DB operations)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-64" vertex="1">
           <mxGeometry x="135" y="260" width="120" height="70" as="geometry" />
         </mxCell>
@@ -217,6 +220,9 @@
             <mxPoint x="110" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UJrqt5LRB9dSP3hVQqYO-3" value="Binary log files&lt;br&gt;(binlogs)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-64">
+          <mxGeometry x="390" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-13" value="Monitors and distributes to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="3lxz-mAFnrLCGns9ZIO8-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -233,7 +239,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-1" value="&lt;div&gt;Server 2 (machine or VM) - BACKUP - PASSIVE&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
-          <mxGeometry x="310" y="2390" width="520" height="385" as="geometry" />
+          <mxGeometry x="310" y="2390" width="520" height="450" as="geometry" />
         </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="uezn61Ct37T2w4ZKGwFr-1" source="uezn61Ct37T2w4ZKGwFr-3" target="uezn61Ct37T2w4ZKGwFr-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -272,6 +278,9 @@
             <mxPoint x="110" y="300" as="sourcePoint" />
             <mxPoint x="110" y="60" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UJrqt5LRB9dSP3hVQqYO-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Primary - Replica relation&lt;/h1&gt;&lt;p&gt;A Primary-Replica relationship between two databases ensures redundancy for the DB. All operations will be executed on the Primary DB, while all &lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2880" width="490" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
