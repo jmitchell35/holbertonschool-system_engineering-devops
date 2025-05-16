@@ -19,7 +19,7 @@
           <mxGeometry x="25" y="2065" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issues of such architecture&lt;/h1&gt;&lt;p&gt;This server is actually a Single Point of Failure (SPOF). The system is non-redundant because it is not replicated onto another server which could be able to take over in case of maintenance that would require the server to be offline for some time (downtime).&lt;br&gt;&lt;/p&gt;&lt;p&gt;Also, in case of an unexpected peak of requests to the server, either legitimate in normal use, or malicious in the case of a DDoS attack for example, the server could be flooded with inbound requests. This infrastructure would need horizontal scaling and load balancing to deal with the traffic, and filtering out malicious IPs&#39; requests.&lt;/p&gt;&lt;p&gt;The Separation of Concerns principle (SoC) actually extends from code to server architecture. Containerization of applications would allow to enforce redundancy, having multiple containers able to serve the same purpose, enable load balancing between these containers, and ensuring smooth maintenance with a zero-downtime focus. These are also part of Continuous Integration and Continuous Deployment concerns, containerization being a strong foothold.&lt;br&gt;&lt;br&gt;We could add that there is no HTTPS protocol, hence no encryption of data between the server and the client, no firewall, no monitoring, no reverse proxy to avoid exposing server&#39;s IP, and no DB files redundancy for recovery purpose if the data was to be corrupted.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1063" y="2140" width="530" height="310" as="geometry" />
+          <mxGeometry x="770" y="2070" width="530" height="310" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="65" y="1125" width="1528" height="940" as="geometry" />
@@ -173,7 +173,7 @@
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="3lxz-mAFnrLCGns9ZIO8-31" source="3lxz-mAFnrLCGns9ZIO8-62" target="3lxz-mAFnrLCGns9ZIO8-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-64" value="Server 1 (machine or VM)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-64" value="Server 1 (machine or VM) - PRIMARY - ACTIVE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="-330" y="2390" width="520" height="385" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3lxz-mAFnrLCGns9ZIO8-64" source="3lxz-mAFnrLCGns9ZIO8-66" target="3lxz-mAFnrLCGns9ZIO8-69" edge="1">
@@ -214,19 +214,22 @@
             <mxPoint x="110" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="3lxz-mAFnrLCGns9ZIO8-64">
+        <mxCell id="uezn61Ct37T2w4ZKGwFr-13" value="Monitors and distributes to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="3lxz-mAFnrLCGns9ZIO8-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="uezn61Ct37T2w4ZKGwFr-1">
+        <mxCell id="uezn61Ct37T2w4ZKGwFr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="uezn61Ct37T2w4ZKGwFr-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-76" value="HA Proxy&lt;br&gt;(Balancing load between two servers, pointing requests to the chosen server IP)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="2180" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HA Proxy config&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Hybrid algo&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="2180" width="200" height="120" as="geometry" />
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HA Proxy config&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Distribution algorithm : Irrelevant / weighted round robin assuming Primary server should have stronger capacities than back up to force primary distribution to primary server&lt;/li&gt;&lt;li&gt;Active-Passive setup. With no DB server and connection pool, we don&#39;t want the data to be spread between these two servers.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="2160" width="370" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-1" value="Server 2 (machine or VM)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="uezn61Ct37T2w4ZKGwFr-15" value="Monitors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="uezn61Ct37T2w4ZKGwFr-1" target="3lxz-mAFnrLCGns9ZIO8-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uezn61Ct37T2w4ZKGwFr-1" value="&lt;div&gt;Server 2 (machine or VM) - BACKUP - PASSIVE&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
           <mxGeometry x="310" y="2390" width="520" height="385" as="geometry" />
         </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uezn61Ct37T2w4ZKGwFr-1" source="uezn61Ct37T2w4ZKGwFr-3" target="uezn61Ct37T2w4ZKGwFr-6">
