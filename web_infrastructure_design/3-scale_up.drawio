@@ -1,38 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.5">
   <diagram name="Page-1" id="AMXWV3zxx2AqXyukk0Ai">
-    <mxGraphModel dx="5603" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2528" dy="-162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="8gN-JM0QglPwTe201CRS-49" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="2560" />
-              <mxPoint x="930" y="2560" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="8gN-JM0QglPwTe201CRS-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-15" value="Replica thread" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="8gN-JM0QglPwTe201CRS-9" target="UJrqt5LRB9dSP3hVQqYO-3">
-          <mxGeometry x="-0.3077" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UJrqt5LRB9dSP3hVQqYO-8" value="Replica thread" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="UJrqt5LRB9dSP3hVQqYO-3" target="uezn61Ct37T2w4ZKGwFr-8" edge="1">
-          <mxGeometry x="-0.5557" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-13" value="HTTPS&lt;div&gt;Request(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gN-JM0QglPwTe201CRS-24" target="3lxz-mAFnrLCGns9ZIO8-76" edge="1">
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-13" value="HTTPS&lt;div&gt;Request(s)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gN-JM0QglPwTe201CRS-24" target="f_Ae0AB4s_Bk1VtrTMPh-8" edge="1">
           <mxGeometry x="-0.7073" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="220" y="2195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-14" value="HTTPS&lt;div&gt;Response(s)&lt;br&gt;populate content&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="8gN-JM0QglPwTe201CRS-24" edge="1">
-          <mxGeometry x="-0.561" relative="1" as="geometry">
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-14" value="HTTPS&lt;div&gt;Response(s)&lt;br&gt;populate content&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="f_Ae0AB4s_Bk1VtrTMPh-8" target="8gN-JM0QglPwTe201CRS-24" edge="1">
+          <mxGeometry x="-0.6895" relative="1" as="geometry">
             <mxPoint x="280" y="2195" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,7 +67,7 @@
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-29" value="Router / Gateway / ISP&#39;s equipment DNS cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-24" vertex="1">
           <mxGeometry x="125" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3lxz-mAFnrLCGns9ZIO8-17" source="3lxz-mAFnrLCGns9ZIO8-30" target="8gN-JM0QglPwTe201CRS-24">
+        <mxCell id="8gN-JM0QglPwTe201CRS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3lxz-mAFnrLCGns9ZIO8-17" source="3lxz-mAFnrLCGns9ZIO8-30" target="8gN-JM0QglPwTe201CRS-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-30" value="TCP Connection - 3-way handshake" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
@@ -198,96 +177,132 @@
         <mxCell id="UJrqt5LRB9dSP3hVQqYO-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DNS Server is now cluster&lt;/h1&gt;&lt;p&gt;High availability also has to be ensured at the DNS record&amp;nbsp; / authoritative level. Using a cluster allowing for one (or several) back up server(s) to step in for a failing primary ensures the IP resolution process can remain operational.&lt;br&gt;&lt;br&gt;Companies generally ensure 5-nines availability for their DNS clusters, through outsourcing to a DNS provider if they can&#39;t afford or guarantee such availability internally.&lt;br&gt;&lt;br&gt;Let&#39;s assume this cluster has been outsourced to a DNS provider.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="3lxz-mAFnrLCGns9ZIO8-31" vertex="1">
           <mxGeometry x="367.5" y="515" width="322.5" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-24" value="TLS/SSL Connection -TLS/SSL complex handshake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-17">
+        <mxCell id="8gN-JM0QglPwTe201CRS-24" value="TLS/SSL Connection -TLS/SSL complex handshake" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
           <mxGeometry x="125" y="1005" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-77" value="HTTPS encrypts and secures data exchanges between client and server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-17">
+        <mxCell id="8gN-JM0QglPwTe201CRS-77" value="HTTPS encrypts and secures data exchanges between client and server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
           <mxGeometry x="265" y="1020" width="205" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-13" value="Monitors and distributes to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="8gN-JM0QglPwTe201CRS-48" edge="1">
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HA Proxys config&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Distribution algorithm : Hybrid : IP hash for session management and least load for Balance between the two Active servers&lt;/li&gt;&lt;li&gt;Active-Passive setup.&lt;/li&gt;&lt;li&gt;Handling DB connection and selection&lt;/li&gt;&lt;li&gt;N+1 redundant&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;SSL termination at HAProxy leaves internal traffic unencrypted, potentially exposing sensitive data if internal network is compromised&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="2420" width="370" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gN-JM0QglPwTe201CRS-23" target="8gN-JM0QglPwTe201CRS-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HA Proxy config&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Distribution algorithm : Hybrid : IP hash for session management and least load for Balance between the two Active servers&lt;/li&gt;&lt;li&gt;Active-Passive setup.&lt;/li&gt;&lt;li&gt;Handling DB connection and selection&lt;/li&gt;&lt;li&gt;N+1 redundant&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;SSL termination at HAProxy leaves internal traffic unencrypted, potentially exposing sensitive data if internal network is compromised&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="390" y="2365" width="370" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="uezn61Ct37T2w4ZKGwFr-15" value="Monitors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="uezn61Ct37T2w4ZKGwFr-1" target="3lxz-mAFnrLCGns9ZIO8-64" edge="1">
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gN-JM0QglPwTe201CRS-23" target="8gN-JM0QglPwTe201CRS-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-26" value="Monitors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="uezn61Ct37T2w4ZKGwFr-1" target="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gN-JM0QglPwTe201CRS-23" target="8gN-JM0QglPwTe201CRS-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-23" value="Infrastructure services server" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="2365" width="480" height="240" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-23" value="Infrastructure services server" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="2358" width="620" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-22" value="Monitoring service centralizing data collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-23">
+        <mxCell id="8gN-JM0QglPwTe201CRS-22" value="Monitoring service centralizing data collection" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-23" vertex="1">
           <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-76" value="HA Proxy&lt;br&gt;(Balancing load between two servers, pointing requests to the chosen server IP), can also handle DB connection" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-23" vertex="1">
-          <mxGeometry x="290" y="30" width="120" height="110" as="geometry" />
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-8" value="Cluster of Active-Passive HA Proxys" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-23">
+          <mxGeometry x="200" y="61.5" width="410" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-50" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-630" y="2620" width="520" height="510" as="geometry" />
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-10" value="&lt;div&gt;Healthcheck&lt;/div&gt;&lt;div&gt;each other&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="f_Ae0AB4s_Bk1VtrTMPh-8" source="3lxz-mAFnrLCGns9ZIO8-76" target="f_Ae0AB4s_Bk1VtrTMPh-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-1" value="&lt;div&gt;Server 2 (machine or VM) - SECONDARY - ACTIVE&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-50">
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-11" value="Fails over to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="f_Ae0AB4s_Bk1VtrTMPh-8" source="3lxz-mAFnrLCGns9ZIO8-76" target="f_Ae0AB4s_Bk1VtrTMPh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-76" value="HA Proxy 1&lt;br&gt;(Balancing load between two servers, pointing requests to the chosen server IP), can also handle DB connection" style="rounded=0;whiteSpace=wrap;html=1;" parent="f_Ae0AB4s_Bk1VtrTMPh-8" vertex="1">
+          <mxGeometry x="8" y="108.5" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-12" value="Backs up" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="f_Ae0AB4s_Bk1VtrTMPh-8" source="f_Ae0AB4s_Bk1VtrTMPh-9" target="3lxz-mAFnrLCGns9ZIO8-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-9" value="HA Proxy 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="f_Ae0AB4s_Bk1VtrTMPh-8">
+          <mxGeometry x="280" y="108.5" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-13" value="Holds the Virtual IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f_Ae0AB4s_Bk1VtrTMPh-8">
+          <mxGeometry x="38" y="60.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-74" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190" y="2273" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-72" value="Firewall 4&lt;br&gt;(Edge or perimeter firewall) regulating traffic on port 443" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-74" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-73" value="Extra Firewall = extra layer of security" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8gN-JM0QglPwTe201CRS-74" vertex="1">
+          <mxGeometry x="130" y="15" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-78" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Monitoring&lt;/h1&gt;&lt;p&gt;Monitoring System:&lt;br&gt;&lt;br&gt;1. Purpose:&amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp; - Provides real-time visibility into infrastructure and application health&lt;br&gt;&amp;nbsp;&amp;nbsp; - Detects performance issues and outages before they impact users&lt;br&gt;&amp;nbsp;&amp;nbsp; - Helps identify security incidents and anomalies&lt;br&gt;&amp;nbsp;&amp;nbsp; - Supports capacity planning and optimization&lt;br&gt;&amp;nbsp;&amp;nbsp; - Enables troubleshooting and root cause analysis&lt;br&gt;&lt;br&gt;2. Data Collection Methods:&lt;br&gt;&amp;nbsp;&amp;nbsp; - Agent-based collection: Monitoring clients installed on each server collect system metrics (CPU, memory, disk usage, network traffic)&lt;br&gt;&amp;nbsp;&amp;nbsp; - Log aggregation: Captures and analyzes application and system logs&lt;br&gt;&amp;nbsp;&amp;nbsp; - Application instrumentation: Collects application-specific metrics (response times, error rates)&lt;br&gt;&amp;nbsp;&amp;nbsp; - Network monitoring: Tracks connectivity and network performance&lt;br&gt;&amp;nbsp;&amp;nbsp; - Synthetic monitoring: Simulates user interactions to test functionality&lt;br&gt;&lt;br&gt;3. Web Server QPS Monitoring:&lt;br&gt;&amp;nbsp;&amp;nbsp; - QPS (Queries Per Second) can be monitored by configuring the monitoring clients to track web server request rates&lt;br&gt;&amp;nbsp;&amp;nbsp; - This is done by analyzing web server logs or using application metrics exposed by Nginx&lt;br&gt;&amp;nbsp;&amp;nbsp; - The monitoring system can create dashboards showing QPS trends and alert on unusual spikes or drops&lt;br&gt;&amp;nbsp;&amp;nbsp; - Data can be aggregated across multiple servers to get total system QPS&lt;br&gt;&lt;br&gt;4. Implementation in Our Infrastructure:&lt;br&gt;&amp;nbsp;&amp;nbsp; - Each server has a monitoring client collecting server-specific metrics&lt;br&gt;&amp;nbsp;&amp;nbsp; - Centralized monitoring service aggregates and analyzes data from all sources&lt;br&gt;&amp;nbsp;&amp;nbsp; - Alerting rules configured for critical thresholds&lt;br&gt;&amp;nbsp;&amp;nbsp; - Dashboards provide visibility across the entire infrastructure stack&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="2000" width="690" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-800" y="2624" width="1990" height="791" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-75" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Host-based Protections&lt;/h1&gt;&lt;p&gt;Host-based firewalls add an extra layer of protection :&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Fined-grained traffic control&lt;/li&gt;&lt;li&gt;Defense in-depth (as an extra layer if perimeter firewall is breached)&lt;/li&gt;&lt;li&gt;Server-specific protection (DB or web servers may have different rules, managing ports...)&lt;/li&gt;&lt;li&gt;Protection from adjacent systems (prevents unauthorized access and ensures damage limitation)&lt;/li&gt;&lt;li&gt;Any other additional security feature&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" vertex="1">
+          <mxGeometry width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-50" value="" style="group" parent="f_Ae0AB4s_Bk1VtrTMPh-4" vertex="1" connectable="0">
+          <mxGeometry x="170" y="151" width="520" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-1" value="&lt;div&gt;Server 2 (machine or VM) - SECONDARY - ACTIVE&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="8gN-JM0QglPwTe201CRS-50" vertex="1">
           <mxGeometry y="60" width="520" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-3" target="8gN-JM0QglPwTe201CRS-6">
+        <mxCell id="8gN-JM0QglPwTe201CRS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-3" target="8gN-JM0QglPwTe201CRS-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-3" value="Nginx webserver (delivers web content through HTTP protocol)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-3" value="Nginx webserver (delivers web content through HTTP protocol)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="317" y="30" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-6" target="8gN-JM0QglPwTe201CRS-9">
+        <mxCell id="8gN-JM0QglPwTe201CRS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-6" target="8gN-JM0QglPwTe201CRS-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-6" value="Application server&lt;div&gt;(Loads and runs the code base)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-6" value="Application server&lt;div&gt;(Loads and runs the code base)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="317" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-9" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;(DBMS software manages DB operations)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-9" value="&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;(DBMS software manages DB operations)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="317" y="260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-12" value="The stack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-12" value="The stack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="460" y="165" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="8gN-JM0QglPwTe201CRS-1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="455" y="300" as="sourcePoint" />
             <mxPoint x="455" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-11" value="Application files (code base)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-11" value="Application files (code base)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-4" value="Loads and runs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-6" target="8gN-JM0QglPwTe201CRS-11">
+        <mxCell id="8gN-JM0QglPwTe201CRS-4" value="Loads and runs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-6" target="8gN-JM0QglPwTe201CRS-11" edge="1">
           <mxGeometry x="-0.037" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-10" value="&lt;div&gt;Database files&lt;/div&gt;&lt;div&gt;(stores the actual data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-10" value="&lt;div&gt;Database files&lt;/div&gt;&lt;div&gt;(stores the actual data)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="80" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-7" value="Queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-9" target="8gN-JM0QglPwTe201CRS-10">
+        <mxCell id="8gN-JM0QglPwTe201CRS-7" value="Queries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-9" target="8gN-JM0QglPwTe201CRS-10" edge="1">
           <mxGeometry x="0.2727" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-14" value="Replica status log files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-14" value="Replica status log files" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="80" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-8" value="Logs operations" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-9" target="8gN-JM0QglPwTe201CRS-14">
+        <mxCell id="8gN-JM0QglPwTe201CRS-8" value="Logs operations" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-1" source="8gN-JM0QglPwTe201CRS-9" target="8gN-JM0QglPwTe201CRS-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-17" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-17" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-1" vertex="1">
           <mxGeometry x="80" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-27" value="Firewall 2&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-50">
+        <mxCell id="8gN-JM0QglPwTe201CRS-27" value="Firewall 2&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-50" vertex="1">
           <mxGeometry x="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-50" source="8gN-JM0QglPwTe201CRS-27" target="8gN-JM0QglPwTe201CRS-3">
+        <mxCell id="8gN-JM0QglPwTe201CRS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-50" source="8gN-JM0QglPwTe201CRS-27" target="8gN-JM0QglPwTe201CRS-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-53" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-10" y="2620" width="520" height="510" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-53" value="" style="group" parent="f_Ae0AB4s_Bk1VtrTMPh-4" vertex="1" connectable="0">
+          <mxGeometry x="800" y="151" width="520" height="510" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-64" value="Server 1 (machine or VM) - PRIMARY - ACTIVE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="8gN-JM0QglPwTe201CRS-53" vertex="1">
           <mxGeometry y="60" width="520" height="450" as="geometry" />
@@ -336,17 +351,17 @@
         <mxCell id="UJrqt5LRB9dSP3hVQqYO-3" value="Binary log files&lt;br&gt;(binlogs)" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-64" vertex="1">
           <mxGeometry x="390" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-20" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-64">
+        <mxCell id="8gN-JM0QglPwTe201CRS-20" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-64" vertex="1">
           <mxGeometry x="390" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-48" value="Firewall 1&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-53">
+        <mxCell id="8gN-JM0QglPwTe201CRS-48" value="Firewall 1&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-53" vertex="1">
           <mxGeometry x="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8gN-JM0QglPwTe201CRS-53" source="8gN-JM0QglPwTe201CRS-48" target="3lxz-mAFnrLCGns9ZIO8-66">
+        <mxCell id="8gN-JM0QglPwTe201CRS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8gN-JM0QglPwTe201CRS-53" source="8gN-JM0QglPwTe201CRS-48" target="3lxz-mAFnrLCGns9ZIO8-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-54" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="670" y="2620" width="520" height="510" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-54" value="" style="group" parent="f_Ae0AB4s_Bk1VtrTMPh-4" vertex="1" connectable="0">
+          <mxGeometry x="1470" y="151" width="520" height="510" as="geometry" />
         </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-1" value="&lt;div&gt;Server 3 (machine or VM) - BACKUP - PASSIVE&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=40;" parent="8gN-JM0QglPwTe201CRS-54" vertex="1">
           <mxGeometry y="60" width="520" height="450" as="geometry" />
@@ -397,32 +412,36 @@
         <mxCell id="UJrqt5LRB9dSP3hVQqYO-5" value="Replica status log files" style="rounded=0;whiteSpace=wrap;html=1;" parent="uezn61Ct37T2w4ZKGwFr-1" vertex="1">
           <mxGeometry x="390" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-21" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="uezn61Ct37T2w4ZKGwFr-1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-21" value="Monitoring client&lt;br&gt;(Service or daemon : collects data)" style="rounded=0;whiteSpace=wrap;html=1;" parent="uezn61Ct37T2w4ZKGwFr-1" vertex="1">
           <mxGeometry x="390" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-49" value="Firewall 3&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-54">
+        <mxCell id="8gN-JM0QglPwTe201CRS-49" value="Firewall 3&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-54" vertex="1">
           <mxGeometry x="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Identical server configuration issues&lt;/h1&gt;&lt;p&gt;Identical server configurations (all containing web, app, and database) prevent resource optimization. Different components have different resource needs (CPU for app server, memory for database, etc.)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="8gN-JM0QglPwTe201CRS-54">
+        <mxCell id="8gN-JM0QglPwTe201CRS-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Identical server configuration issues&lt;/h1&gt;&lt;p&gt;Identical server configurations (all containing web, app, and database) prevent resource optimization. Different components have different resource needs (CPU for app server, memory for database, etc.)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="8gN-JM0QglPwTe201CRS-54" vertex="1">
           <mxGeometry x="-290" y="-40" width="430" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-74" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="2250" width="340" height="60" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-79" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Single-write issue&lt;/h1&gt;&lt;p&gt;Single MySQL write server creates a single point of failure for write operations; if the primary database fails, the application loses write capability until failover completes&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" vertex="1">
+          <mxGeometry x="790" y="701" width="580" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-72" value="Firewall 4&lt;br&gt;(Edge or perimeter firewall) regulating traffic on port 443" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-74">
-          <mxGeometry width="120" height="60" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-15" value="Replica thread" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" source="8gN-JM0QglPwTe201CRS-9" target="UJrqt5LRB9dSP3hVQqYO-3" edge="1">
+          <mxGeometry x="-0.3077" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-73" value="Extra Firewall = extra layer of security" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8gN-JM0QglPwTe201CRS-74">
-          <mxGeometry x="130" y="15" width="210" height="30" as="geometry" />
+        <mxCell id="UJrqt5LRB9dSP3hVQqYO-8" value="Replica thread" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" source="UJrqt5LRB9dSP3hVQqYO-3" target="uezn61Ct37T2w4ZKGwFr-8" edge="1">
+          <mxGeometry x="-0.5557" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-75" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Host-based Protections&lt;/h1&gt;&lt;p&gt;Host-based firewalls add an extra layer of protection :&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Fined-grained traffic control&lt;/li&gt;&lt;li&gt;Defense in-depth (as an extra layer if perimeter firewall is breached)&lt;/li&gt;&lt;li&gt;Server-specific protection (DB or web servers may have different rules, managing ports...)&lt;/li&gt;&lt;li&gt;Protection from adjacent systems (prevents unauthorized access and ensures damage limitation)&lt;/li&gt;&lt;li&gt;Any other additional security feature&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="2470" width="350" height="200" as="geometry" />
+        <mxCell id="uezn61Ct37T2w4ZKGwFr-15" value="Monitors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" source="uezn61Ct37T2w4ZKGwFr-1" target="3lxz-mAFnrLCGns9ZIO8-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-78" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Monitoring&lt;/h1&gt;&lt;p&gt;Monitoring System:&lt;br&gt;&lt;br&gt;1. Purpose:&amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp; - Provides real-time visibility into infrastructure and application health&lt;br&gt;&amp;nbsp;&amp;nbsp; - Detects performance issues and outages before they impact users&lt;br&gt;&amp;nbsp;&amp;nbsp; - Helps identify security incidents and anomalies&lt;br&gt;&amp;nbsp;&amp;nbsp; - Supports capacity planning and optimization&lt;br&gt;&amp;nbsp;&amp;nbsp; - Enables troubleshooting and root cause analysis&lt;br&gt;&lt;br&gt;2. Data Collection Methods:&lt;br&gt;&amp;nbsp;&amp;nbsp; - Agent-based collection: Monitoring clients installed on each server collect system metrics (CPU, memory, disk usage, network traffic)&lt;br&gt;&amp;nbsp;&amp;nbsp; - Log aggregation: Captures and analyzes application and system logs&lt;br&gt;&amp;nbsp;&amp;nbsp; - Application instrumentation: Collects application-specific metrics (response times, error rates)&lt;br&gt;&amp;nbsp;&amp;nbsp; - Network monitoring: Tracks connectivity and network performance&lt;br&gt;&amp;nbsp;&amp;nbsp; - Synthetic monitoring: Simulates user interactions to test functionality&lt;br&gt;&lt;br&gt;3. Web Server QPS Monitoring:&lt;br&gt;&amp;nbsp;&amp;nbsp; - QPS (Queries Per Second) can be monitored by configuring the monitoring clients to track web server request rates&lt;br&gt;&amp;nbsp;&amp;nbsp; - This is done by analyzing web server logs or using application metrics exposed by Nginx&lt;br&gt;&amp;nbsp;&amp;nbsp; - The monitoring system can create dashboards showing QPS trends and alert on unusual spikes or drops&lt;br&gt;&amp;nbsp;&amp;nbsp; - Data can be aggregated across multiple servers to get total system QPS&lt;br&gt;&lt;br&gt;4. Implementation in Our Infrastructure:&lt;br&gt;&amp;nbsp;&amp;nbsp; - Each server has a monitoring client collecting server-specific metrics&lt;br&gt;&amp;nbsp;&amp;nbsp; - Centralized monitoring service aggregates and analyzes data from all sources&lt;br&gt;&amp;nbsp;&amp;nbsp; - Alerting rules configured for critical thresholds&lt;br&gt;&amp;nbsp;&amp;nbsp; - Dashboards provide visibility across the entire infrastructure stack&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="2000" width="690" height="470" as="geometry" />
+        <mxCell id="8gN-JM0QglPwTe201CRS-26" value="Monitors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="f_Ae0AB4s_Bk1VtrTMPh-4" source="uezn61Ct37T2w4ZKGwFr-1" target="8gN-JM0QglPwTe201CRS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-79" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Single-write issue&lt;/h1&gt;&lt;p&gt;Single MySQL write server creates a single point of failure for write operations; if the primary database fails, the application loses write capability until failover completes&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="3170" width="580" height="90" as="geometry" />
+        <mxCell id="f_Ae0AB4s_Bk1VtrTMPh-14" value="Takes over the VIP on fail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f_Ae0AB4s_Bk1VtrTMPh-4">
+          <mxGeometry x="1200" y="26" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
