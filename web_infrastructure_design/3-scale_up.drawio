@@ -177,7 +177,7 @@
         <mxCell id="UJrqt5LRB9dSP3hVQqYO-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DNS Server is now cluster&lt;/h1&gt;&lt;p&gt;High availability also has to be ensured at the DNS record&amp;nbsp; / authoritative level. Using a cluster allowing for one (or several) back up server(s) to step in for a failing primary ensures the IP resolution process can remain operational.&lt;br&gt;&lt;br&gt;Companies generally ensure 5-nines availability for their DNS clusters, through outsourcing to a DNS provider if they can&#39;t afford or guarantee such availability internally.&lt;br&gt;&lt;br&gt;Let&#39;s assume this cluster has been outsourced to a DNS provider.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="3lxz-mAFnrLCGns9ZIO8-31" vertex="1">
           <mxGeometry x="367.5" y="515" width="322.5" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="8gN-JM0QglPwTe201CRS-24" value="TLS/SSL Connection -TLS/SSL complex handshake" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
+        <mxCell id="8gN-JM0QglPwTe201CRS-24" value="TLS (former SSL) Connection -TLS complex handshake" style="rounded=0;whiteSpace=wrap;html=1;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
           <mxGeometry x="125" y="1005" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8gN-JM0QglPwTe201CRS-77" value="HTTPS encrypts and secures data exchanges between client and server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3lxz-mAFnrLCGns9ZIO8-17" vertex="1">
@@ -510,8 +510,8 @@
         <mxCell id="HLya0VREYfBMbdanRjD7-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="HLya0VREYfBMbdanRjD7-83" source="HLya0VREYfBMbdanRjD7-90" target="HLya0VREYfBMbdanRjD7-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLya0VREYfBMbdanRjD7-113" value="SSL Everywhere : re-encryption at HAP output of internal traffic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="245" y="2770" width="120" height="60" as="geometry" />
+        <mxCell id="HLya0VREYfBMbdanRjD7-113" value="&quot;SSL Everywhere&quot; = &quot;Defense in depth&quot; : re-encryption at HAP output of internal traffic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2770" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
