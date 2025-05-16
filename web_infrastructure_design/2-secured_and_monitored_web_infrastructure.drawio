@@ -40,8 +40,8 @@
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-15" value="User browsing, requesting data from server and receiving it through HTTPS requests and responses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="2180" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issues of such architecture&lt;/h1&gt;&lt;div&gt;The HA proxy is now SPOF. It would need to be replicated for redundancy purpose.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Also, this setup requires application level failure awareness so that the application would fail as the DB does with DB proxy / DB connection pool tool.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The setup is still exposed as there is no Firewall for traffic monitoring and security rules, nor is there HTTPS for data encryption between the client and the server.&lt;br&gt;&lt;br&gt;Also, there is no monitoring tool providing metrics to provide health reports or dashboards. I figure this would mean there is a need for manual supervision which is highly inadequate.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="2270" width="530" height="310" as="geometry" />
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Features of such architecture&lt;/h1&gt;&lt;div&gt;The HA proxy is now SPOF. It would need to be replicated for redundancy purpose.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Also, this setup requires application level failure awareness so that the application would fail as the DB does with DB proxy / DB connection pool tool.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The setup is still exposed as there is no Firewall for traffic monitoring and security rules, nor is there HTTPS for data encryption between the client and the server.&lt;br&gt;&lt;br&gt;Also, there is no monitoring tool providing metrics to provide health reports or dashboards. I figure this would mean there is a need for manual supervision which is highly inadequate.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="2250" width="530" height="310" as="geometry" />
         </mxCell>
         <mxCell id="3lxz-mAFnrLCGns9ZIO8-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="65" y="1125" width="1528" height="1070" as="geometry" />
@@ -411,6 +411,9 @@
         </mxCell>
         <mxCell id="8gN-JM0QglPwTe201CRS-73" value="Extra Firewall = extra layer of security" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8gN-JM0QglPwTe201CRS-74">
           <mxGeometry x="130" y="15" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-75" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Host-based Protections&lt;/h1&gt;&lt;p&gt;Host-based firewalls add an extra layer of protection :&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Fined-grained traffic control&lt;/li&gt;&lt;li&gt;Defense in-depth (as an extra layer if perimeter firewall is breached)&lt;/li&gt;&lt;li&gt;Server-specific protection (DB or web servers may have different rules, managing ports...)&lt;/li&gt;&lt;li&gt;Protection from adjacent systems (prevents unauthorized access and ensures damage limitation)&lt;/li&gt;&lt;li&gt;Any other additional security feature&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="2470" width="350" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
