@@ -204,6 +204,9 @@
         <mxCell id="8gN-JM0QglPwTe201CRS-24" value="TLS Connection -TLS complex handshake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-17">
           <mxGeometry x="125" y="1005" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-77" value="HTTPS encrypts and secures data exchanges between client and server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3lxz-mAFnrLCGns9ZIO8-17">
+          <mxGeometry x="265" y="1020" width="205" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="uezn61Ct37T2w4ZKGwFr-13" value="Monitors and distributes to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3lxz-mAFnrLCGns9ZIO8-76" target="8gN-JM0QglPwTe201CRS-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
