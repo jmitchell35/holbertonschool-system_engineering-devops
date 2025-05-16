@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.5">
   <diagram name="Page-1" id="AMXWV3zxx2AqXyukk0Ai">
-    <mxGraphModel dx="2208" dy="-341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2887" dy="39" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,6 +405,9 @@
         </mxCell>
         <mxCell id="8gN-JM0QglPwTe201CRS-49" value="Firewall 3&lt;br&gt;(Host-based = server attached)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-54">
           <mxGeometry x="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gN-JM0QglPwTe201CRS-80" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Identical server configuration issues&lt;/h1&gt;&lt;p&gt;Identical server configurations (all containing web, app, and database) prevent resource optimization. Different components have different resource needs (CPU for app server, memory for database, etc.)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="8gN-JM0QglPwTe201CRS-54">
+          <mxGeometry x="-290" y="-40" width="430" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8gN-JM0QglPwTe201CRS-74" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="190" y="2250" width="340" height="60" as="geometry" />
