@@ -367,8 +367,8 @@
         <mxCell id="8gN-JM0QglPwTe201CRS-22" value="Monitoring service centralizing data collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="8gN-JM0QglPwTe201CRS-23">
           <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3lxz-mAFnrLCGns9ZIO8-76" value="HA Proxy&lt;br&gt;(Balancing load between two servers, pointing requests to the chosen server IP)" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-23" vertex="1">
-          <mxGeometry x="290" y="30" width="120" height="90" as="geometry" />
+        <mxCell id="3lxz-mAFnrLCGns9ZIO8-76" value="HA Proxy&lt;br&gt;(Balancing load between two servers, pointing requests to the chosen server IP), can also handle DB connection" style="rounded=0;whiteSpace=wrap;html=1;" parent="8gN-JM0QglPwTe201CRS-23" vertex="1">
+          <mxGeometry x="290" y="30" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
